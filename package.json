@@ -1,0 +1,25 @@
+{
+  "name": "dinner",
+  "version": "0.0.0",
+  "description": "Simple Dinner App",
+  "main": "app.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasRafn/Dinner.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Angular",
+    "PostgreSQL"
+  ],
+  "author": "Jonas Rafn <jonaschrafn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonasRafn/Dinner/issues"
+  },
+  "homepage": "https://github.com/JonasRafn/Dinner#readme"
+}
