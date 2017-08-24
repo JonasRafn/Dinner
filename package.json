@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/JonasRafn/Dinner/issues"
   },
-  "homepage": "https://github.com/JonasRafn/Dinner#readme"
+  "homepage": "https://github.com/JonasRafn/Dinner#readme",
+  "dependencies": {}
 }
