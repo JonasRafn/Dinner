@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    {{{body}}}
-  </body>
+
+<head>
+	<title>{{title}}</title>
+
+	{{!-- Bootstrap core --}}
+	<link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheet/narrow-jumbotron.css"> {{!-- Custom css --}}
+	<link rel='stylesheet' href='stylesheet/style.css'/>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills float-right">
+					<li class="nav-item">
+						<a class="nav-link" href="/">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/recipes">All recipes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">Dinner App</h3>
+		</div>
+
+		
+		{{{body}}} 
+		
+		{{!-- Footer --}}
+		<footer class="footer">
+			<p>&copy; Jonas Rafn 2017</p>
+		</footer>
+
+	</div>
+	<script src="jquery/dist/jquery.min.js"></script>
+	<script src="javascript/ie10-viewport-bug-workaround.js"></script>
+	<script src="javascript/main.js"></script>
+</body>
+
 </html>
