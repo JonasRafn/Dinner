@@ -16,12 +16,11 @@
 		"Angular",
 		"PostgreSQL"
 	],
-	"homepage": "dinner.jonasrafn.dk",
+	"homepage": "https://github.com/JonasRafn/Dinner#readme",
 	"author": "Jonas Rafn <jonaschrafn@gmail.com>",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/JonasRafn/Dinner/issues"
 	},
-	"homepage": "https://github.com/JonasRafn/Dinner#readme",
 	"dependencies": {}
 }
